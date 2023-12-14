@@ -1,0 +1,43 @@
+
+ion-header {
+  ion-toolbar {
+    color: #fff; 
+    --background: rgb(255, 127, 38);
+  }
+
+  ion-title {
+    font-size: 1.5em;
+  }
+}
+
+// Estilos para el contenido
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #f4f4f4; 
+
+  // Estilos para el formulario
+  form {
+    ion-item {
+      ion-label {
+        color: white; 
+      }
+
+      ion-input,
+      ion-textarea {
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+      }
+    }
+
+    ion-button {
+      margin-top: 20px; 
+      --background: rgb(255, 127, 38); 
+      --color: #fff; 
+    }
+  }
+
+}
+
+
