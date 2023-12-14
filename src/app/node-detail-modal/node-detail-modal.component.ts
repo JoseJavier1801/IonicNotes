@@ -54,7 +54,7 @@ export class NoteDetailModalComponent implements AfterViewInit, OnDestroy {
   
             // Crear un ícono personalizado para el marcador
             const customIcon = L.icon({
-              iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-green.png', // Reemplaza con la ruta de tu ícono personalizado
+              iconUrl: 'http://leafletjs.com/examples/custom-icons/leaf-green.png', // Reemplaza con la ruta de tu ícono personalizado
               iconSize: [25, 41],
               iconAnchor: [12, 41],
               popupAnchor: [1, -34],

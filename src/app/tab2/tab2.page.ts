@@ -72,7 +72,8 @@ export class Tab2Page {
         {
           text: 'Cancel',
           role: 'cancel',
-          handler: () => {
+          handler: async () => {
+            await this.UIS.showToast('Edited Note cancelled', 'danger');
             console.log('Operación de edición cancelada');
           },
         },
@@ -82,7 +83,7 @@ export class Tab2Page {
             const updatedNote: any = { ...note, title: data.newTitle, description: data.newDescription };
 
             this.noteS.updateNote(updatedNote).then(async () => {
-              await this.UIS.showToast('Nota editada correctamente', 'success');
+              await this.UIS.showToast('Edited Note succesfully', 'success');
             });
           },
         },

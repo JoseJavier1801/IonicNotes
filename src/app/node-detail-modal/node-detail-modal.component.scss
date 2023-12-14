@@ -1,53 +1,15 @@
 .custom-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  max-width: 100%;
-}
-
-ion-item {
-  margin-bottom: 16px;
-}
-
-ion-label {
-  margin-left: 16px;
-}
-
-
-ion-header {
-  ion-toolbar {
-    --background: rgb(255, 111, 0); 
-    color: #fff; 
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    max-width: 100%; 
   }
-
-  ion-title {
-    font-size: 1.5em; 
-  }
-}
-
-ion-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
-
-  ion-list {
-    padding: 16px; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  }
-
+  
+  
   ion-item {
-   
-    ion-label {
-      h2 {
-        font-size: 1.5em;
-      }
-
-      p {
-        margin-top: 8px; 
-      }
-    }
+    margin-bottom: 16px; 
   }
-
-}
+  
+  ion-label {
+    margin-left: 16px;
+  }

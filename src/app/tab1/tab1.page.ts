@@ -60,7 +60,7 @@ export class Tab1Page {
       this.selectedPhoto = undefined;
       await this.UIS.showToast('Note submit succesfully', 'success');
     } catch (error) {
-      await this.UIS.showToast('Submit', 'danger');
+      await this.UIS.showToast('Submit error', 'danger');
     } finally {
       await this.UIS.hideLoading();
     }
