@@ -1,0 +1,44 @@
+// app.component.scss (o el nombre de tu archivo de estilos)
+
+// Estilos para el encabezado principal
+ion-header {
+    ion-toolbar {
+      --background: rgb(255, 127, 38); // Cambia el color de fondo del encabezado
+    }
+  
+    ion-title {
+      color: #fff; 
+    }
+  }
+  
+ 
+  ion-content {
+      
+    
+    ion-card {
+      margin: 10px;
+      border: 2px solid rgb(255, 127, 38); 
+      ion-card-content {
+       
+        ul {
+          list-style-type: none; 
+          padding: 0;
+  
+          li {
+            margin-bottom: 5px; 
+          }
+        }
+      }
+    }
+  
+    .social-icons {
+      ion-icon {
+        font-size: 2em;
+        color:  rgb(255, 127, 38);
+        cursor: pointer; 
+        margin: 0 10px; 
+      }
+    }
+  
+    
+}
